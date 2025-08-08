@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dom.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div>
+        <button onclick="left()">move left</button>
+        <button onclick="right()">move right</button>
+        <button onclick="up()">move up</button>
+        <button onclick="down()">move down</button>
+    </div>
+    <div class="boxx">
+        <div class="box"></div>
+    </div>
+    <script>
+        function left(){
+            document.getElementsByClassName("box")[0].style="position:absolute;left:0px;border-radius:50%;"
+        }
+        function right(){
+            document.getElementsByClassName("box")[0].style="position:absolute;right:0px"
+        }
+        function up(){
+            document.getElementsByClassName("box")[0].style="position:absolute;top:0px;"
+        }
+        function down(){
+            document.getElementsByClassName("box")[0].style="position:absolute;bottom:0px"
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <img class="image" src="Bird.jpeg">
+    <button onclick="fun()">Click</button>
+    <script>
+        function fun(){
+            document.getElementsByTagName("img")[0].src="Thar.jpeg"
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+<!-- <html>
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <p>paragraph-1</p>
+        <p>paragraph-2</p>
+        <div class="demo">demo-tag</div>
+        <div class="demo">span-tag</div>
+        <script>
+            console.log(document.getElementsByClassName("demo"));
+        </script>
+    </body>
+</html> -->

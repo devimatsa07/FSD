@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    background-color: white;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: poppins;
+}
+html{
+    font-size: 10;
+}
+header{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 90px;
+    z-index: 1000;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    position: relative;
+    gap: 70px;
+}
+header .bar{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    left: 200px;
+}
+header .bar a{
+    font-size: 20px;
+    padding: 0 24px;
+    color: black;
+    font-weight: 550;
+}
+header .bar a:hover{
+    color: green;
+}
+.logout{
+    width: 85px;
+    height: 40px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    left: 1400px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.logo img{
+    width: 42px;
+    height: 32px;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+.name{
+    font-family: "Michroma", sans-serif;
+    position: absolute;
+    bottom: 8px;
+    left: 25px;
+    font-weight: 700;
+    font-size: 10px;
+    color: #00802b;
+}
+.quote-box {
+    position: absolute;     
+    left: 100px;              
+    top: 100px;
+    max-width: 500px;
+    line-height: 1.2;
+    font-size: 32px;
+}
+.line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.green {
+    color: #007f32;
+    font-weight: 600;
+    font-family: poppins;
+    font-size: 40px;
+}
+.yellow {
+    color: #f4b400;
+    font-weight: 250;
+    font-size: 70px;
+    line-height: 0.8;
+}
+.world-image {
+    height: 55px;
+    margin: 0 8px;
+    position: absolute;
+    left: 140px;
+    border-radius: 50px;
+}
+/* .underline {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: -5px;
+}*/
+.indent {
+    margin-left: 32px;
+}
+.picture img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 900px;
+    top: 50px;
+}
+.info-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  width: 175px;
+  height: 50px;
+  margin: 50px auto;
+  position: absolute;
+  top: 250px;
+  left: 440px;
+}
+.card-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.year {
+  font-weight: 600;
+  font-size: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 10px;
+}
+.thub-logo {
+  width: 50px;
+  margin: 10px 0;
+  position: absolute;
+  top: 16px;
+  left: 60px;
+}
+.tech-hub {
+  font-weight: 700;
+  font-size: 10px;
+  color: #00802b;
+  margin: 0;
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  font-family: "Michroma", sans-serif;
+}
+.card-right {
+  text-align: right;
+}
+.count {
+  color: #d32f5e;
+  font-weight: 700;
+  font-size: 10px;
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 150px;
+}
+.label {
+  font-size: 10px;
+  color: #333;
+  margin: 0;
+  font-weight: 600;
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+@media(max-width:768px){
+    header .bar a{
+        display: none;
+    }
+    .menu i{
+        display: block;
+    }
+}

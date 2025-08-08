@@ -1,0 +1,34 @@
+.cards-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.image{
+    border: 1px solid black;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+}

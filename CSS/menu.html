@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu creation</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <button onclick="openMenu()">Open Menu</button>
+    <div class="options">
+        <span onclick="closeMenu()">&times;</span>
+        <div class="Home">Home</div>
+        <div class="About">About</div>
+        <div class="Contact">Contact</div>
+        <div class="Review">Review</div>
+        <div class="Pricing">Pricing</div>
+    </div>
+    <script>
+        function closeMenu() {
+            document.getElementsByClassName("options")[0].style.right = "-200px";
+        }
+
+        function openMenu() {
+            document.getElementsByClassName("options")[0].style.right = "0px";
+        }
+    </script>
+</body>
+</html>

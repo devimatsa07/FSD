@@ -1,0 +1,32 @@
+body{
+    height:100svh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    display: flex;
+}
+.min{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(35, 113, 202);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sec{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(35, 113, 202);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

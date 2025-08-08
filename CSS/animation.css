@@ -1,0 +1,50 @@
+.demo{
+    height: 100px;
+    width: 100px;
+    animation-name:animation ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position:relative;
+}
+@keyframes animation{
+    0%{
+        left:0px;
+    }
+    50%{
+        left:150px;
+    }
+    100%{
+        left:300px;
+    }
+}
+.demo1{
+    height:100px;
+    width: 100px;
+    background-color: rgb(57, 207, 95);
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position:relative;
+    animation-timing-function: ease;
+
+}
+.demo2{
+    height:100px;
+    width: 100px;
+    background-color: rgb(204, 71, 193);
+    animation-name:animation ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position:relative;
+    animation-timing-function: ease-in;
+}
+.demo3{
+    height:100px;
+    width: 100px;
+    background-color: rgb(1, 4, 4);
+    animation-name:animation ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position:relative;
+    animation-timing-function: ease-out;
+}

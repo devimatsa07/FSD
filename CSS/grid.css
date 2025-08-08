@@ -1,0 +1,36 @@
+.parent{
+    height:100svh;
+    width: 100%;
+    display: grid;
+    border: 2px solid black;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.child1,.child2,.child3,.child4{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+}
+.child1{
+    background-color: red;
+    justify-self:end;
+    align-self:end;
+}
+.child2{
+    background-color: blue;
+    justify-self: end;
+    align-self: start;
+}
+.child3{
+    background-color: green;
+    justify-self: start;
+    align-self: end;
+}
+.child4{
+    background-color: aqua;
+    justify-self: start;
+    align-self: start;
+}
